@@ -154,3 +154,26 @@ body {
     opacity: 1;
   }
 }
+
+.grids-section {
+  background-color: #050505;
+  width: 10rem;
+  height: 10rem;
+  margin: 2rem 0 0 2rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.plus {
+  cursor: pointer;
+  width: 300px;
+  transition: transform 0.3s ease;
+
+}
+
+.plus:hover {
+  transform: scale(0.8);
+}
